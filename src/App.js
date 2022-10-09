@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Routes, Route} from 'react-router-dom'
+import Home from './Pages/Home';
 // import RoutesComponent from './RoutesComponent';
 
 
@@ -8,7 +9,7 @@ class App extends Component {
     return (
       <div> 
         <Routes>
-          <Route exact path='/' element={<h1>home</h1>}/>
+          <Route exact path='/' element={<Home/>}/>
           <Route exact path='/international' element={<h1>international</h1>}/>
           <Route exact path='/entertainment' element={<h1>entertainment</h1>}/>
           <Route exact path='/sports' element={<h1>sports</h1>}/>

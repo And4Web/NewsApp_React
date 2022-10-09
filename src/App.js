@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 
+import AppLayout from "./components/layout/AppLayout";
+
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello</h1>
-        <p>this is news app</p>
-        <p>process closed</p>
+        <AppLayout>
+          
+        </AppLayout>
       </div>
     );
   }

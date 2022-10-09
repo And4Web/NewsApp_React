@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+ import React from 'react';
 
-class Footer extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
-}
+ function Footer(){
+  return(
+    <div className="bg-light d-flex justify-content-center align-item-center ">
+    <p className="text-dark">&copy; NewsPortal 2022. All rights reserved.</p>      
+  </div>
+  )
+ } 
 
-export default Footer;
+export default Footer
